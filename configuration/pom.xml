@@ -11,11 +11,12 @@
 
     <groupId>hexarc.pea</groupId>
     <artifactId>configuration</artifactId>
+    <version>${revision}</version>
     <packaging>pom</packaging>
     <modules>
         <module>web-api</module>
-        <module>test-architecture</module>
-        <module>security</module>
+<!--        <module>test-architecture</module>-->
+<!--        <module>security</module>-->
     </modules>
 
     <properties>
