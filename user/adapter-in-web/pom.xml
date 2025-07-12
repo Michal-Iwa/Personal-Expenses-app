@@ -25,11 +25,16 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
         </dependency>
-<!--        <dependency>-->
-<!--            <groupId>hexarc.pea.user</groupId>-->
-<!--            <artifactId>application</artifactId>-->
-<!--            <version>${revision}</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>hexarc.pea.user</groupId>
+            <artifactId>application</artifactId>
+            <version>${revision}</version>
+        </dependency>
     </dependencies>
 
 </project>

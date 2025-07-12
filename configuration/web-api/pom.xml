@@ -63,6 +63,21 @@
             <artifactId>adapter-in-web</artifactId>
             <version>${revision}</version>
         </dependency>
+        <dependency>
+            <groupId>hexarc.pea.user</groupId>
+            <artifactId>adapter-out-db</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>hexarc.pea.user</groupId>
+            <artifactId>application</artifactId>
+            <version>${revision}</version>
+        </dependency>
+        <dependency>
+            <groupId>hexarc.pea.user</groupId>
+            <artifactId>domain</artifactId>
+            <version>${revision}</version>
+        </dependency>
     </dependencies>
 
     <build>

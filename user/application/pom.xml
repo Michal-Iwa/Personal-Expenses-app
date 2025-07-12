@@ -11,6 +11,8 @@
 
     <groupId>hexarc.pea.user</groupId>
     <artifactId>application</artifactId>
+    <version>${revision}</version>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>23</maven.compiler.source>
