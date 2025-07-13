@@ -22,10 +22,21 @@
 
     <dependencies>
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>hexarc.pea.user</groupId>
             <artifactId>domain</artifactId>
             <version>${revision}</version>
         </dependency>
+        <dependency>
+            <groupId>jakarta.transaction</groupId>
+            <artifactId>jakarta.transaction-api</artifactId>
+        </dependency>
+
+
     </dependencies>
 
 </project>

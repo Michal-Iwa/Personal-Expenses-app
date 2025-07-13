@@ -20,10 +20,7 @@ public record UserDto(
         @NotBlank
         @Size(min = 8)
         @Pattern(regexp = "^(?=.*[a-z])(?=.*[A-Z])(?=.*\\\\d)(?=.*[@#$%^&+=])$")
-        String password,
-
-        @NotBlank
-        String repeatedPassword
+        String password
 
 ) {
 }

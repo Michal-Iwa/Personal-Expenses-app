@@ -17,8 +17,8 @@ public class UserRestController {
 
     @PostMapping("/user")
     public ResponseEntity<String> registerUser(@RequestBody UserDto userDto) {
-        var userId = registerUserUseCase.apply(new RegisterUserCommand(userDto.firstName(), userDto.lastName(),
-                userDto.email(), userDto.password(), userDto.repeatedPassword()));
+        var userId = registerUserUseCase.apply(new RegisterUserCommand(userDto.firstName(),
+                userDto.lastName(), userDto.email(), userDto.password()));
         return null;
     }
 
